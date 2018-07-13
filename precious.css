@@ -1,0 +1,119 @@
+.box {
+  position: relative;
+  width: 100px;
+  height: auto;
+}
+
+.smallRing {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow: inset 1px 1px 1px rgba(255, 215, 0, 0.7), 1px 1px 1px rgba(255, 215, 0, 0.7);
+  height: 25px;
+  width: 25px;
+  border-width: 2px;
+  border-color: gold;
+}
+
+.oneRing {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow: inset 2.5px 2.5px 2.5px rgba(255, 215, 0, 0.7), 2.5px 2.5px 2.5px rgba(255, 215, 0, 0.7);
+  height: 100px;
+  width: 100px;
+  border-width: 5px;
+  border-color: gold;
+}
+
+.foRing-1 {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow: inset 1px 1px 1px rgba(128, 128, 128, 0.7), 1px 1px 1px rgba(128, 128, 128, 0.7);
+  height: 8px;
+  width: 8px;
+  border-width: 2px;
+  border-color: grey;
+  position: absolute;
+  top: -4px;
+  left: 7px;
+}
+
+.foRing-2 {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow: inset 1px 1px 1px rgba(128, 128, 128, 0.7), 1px 1px 1px rgba(128, 128, 128, 0.7);
+  height: 16px;
+  width: 16px;
+  border-width: 2px;
+  border-color: grey;
+  position: absolute;
+  top: -8px;
+  left: 14px;
+}
+
+.foRing-3 {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow: inset 1px 1px 1px rgba(128, 128, 128, 0.7), 1px 1px 1px rgba(128, 128, 128, 0.7);
+  height: 24px;
+  width: 24px;
+  border-width: 2px;
+  border-color: grey;
+  position: absolute;
+  top: -12px;
+  left: 21px;
+}
+
+.foRing-4 {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow: inset 1px 1px 1px rgba(128, 128, 128, 0.7), 1px 1px 1px rgba(128, 128, 128, 0.7);
+  height: 32px;
+  width: 32px;
+  border-width: 2px;
+  border-color: grey;
+  position: absolute;
+  top: -16px;
+  left: 28px;
+}
+
+.foRing-5 {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow: inset 1px 1px 1px rgba(128, 128, 128, 0.7), 1px 1px 1px rgba(128, 128, 128, 0.7);
+  height: 40px;
+  width: 40px;
+  border-width: 2px;
+  border-color: grey;
+  position: absolute;
+  top: -20px;
+  left: 35px;
+}
+
+.foRing-6 {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow: inset 1px 1px 1px rgba(128, 128, 128, 0.7), 1px 1px 1px rgba(128, 128, 128, 0.7);
+  height: 48px;
+  width: 48px;
+  border-width: 2px;
+  border-color: grey;
+  position: absolute;
+  top: -24px;
+  left: 42px;
+}

@@ -1,0 +1,30 @@
+@mixin ring($size, $color, $width) {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  box-shadow : inset $width/2 $width/2 $width/2 rgba( $color, .7 ), $width/2 $width/2 $width/2 rgba($color, .7 );
+  
+  height: $size;
+  width: $size;
+  border-width: $width;
+  border-color: $color;
+}
+
+.box {position:relative; width:100px; height:auto;}
+
+.smallRing {
+@include ring(25px, gold, 2px);
+}
+
+.oneRing {
+@include ring(100px, gold, 5px);
+}
+
+@for $i from 1 through 6 {
+ .foRing-#{$i} {
+  @include ring(8px*$i, grey, 2px);
+  position:absolute;
+  top:-4px*$i;
+  left:7px*$i;
+}}
